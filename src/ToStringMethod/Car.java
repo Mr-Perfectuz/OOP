@@ -7,7 +7,6 @@ public class Car {
     int year = 2020;
 
     public String toString(){
-        String myString = make + "\n"+ model + "\n" + color + "\n"+ year;
-        return myString;
+        return make + "\n"+ model + "\n" + color + "\n"+ year;
     }
 }
