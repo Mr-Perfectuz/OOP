@@ -3,12 +3,12 @@ package variableScope;
 import java.util.Random;
 
 public class DiceRoller {
-    Random random = new Random();
+    Random random;
     int number = 0;
 
     DiceRoller(){
+        random  = new Random();
         roll();
-
     }
 
     void roll(){
