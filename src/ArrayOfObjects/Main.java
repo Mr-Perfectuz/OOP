@@ -9,7 +9,13 @@ public class Main {
         Food food2 = new Food("Cake");
         Food food3 = new Food("Chocolate");
 
-        System.out.println(refrigerator[1]);
+        refrigerator[0] = food1;
+        refrigerator[1] = food2;
+        refrigerator[2] = food3;
+
+        System.out.println(refrigerator[0].name);
+        System.out.println(refrigerator[1].name);
+        System.out.println(refrigerator[2].name);
 
 
     }
