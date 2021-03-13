@@ -7,6 +7,7 @@ public class Main {
         Pizza Amerianpizza = new Pizza("thic cross", "tomato", "mozerolla");
         Pizza Europeanpizza = new Pizza("thic cross", "tomato");
         Pizza Asianpizza = new Pizza("thic cross");
+        Pizza UzbekPizza = new Pizza();
 
         System.out.println("Here are the ingredients of your pizza: ");
         System.out.println(pizza.bread);

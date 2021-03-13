@@ -27,4 +27,8 @@ public class Pizza {
     Pizza(String bread) {
         this.bread = bread;
     }
+
+    Pizza(){
+
+    }
 }
