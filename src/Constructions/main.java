@@ -10,5 +10,6 @@ public class main {
         human.weight = 160.0;
 
         human.eating();
+        human2.drinking();
     }
 }

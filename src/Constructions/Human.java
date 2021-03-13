@@ -14,4 +14,8 @@ public class Human {
     void eating(){
         System.out.println(this.name+ " is eating now");
     }
+
+    void drinking(){
+        System.out.println(this.name+ " is drinking");
+    }
 }
