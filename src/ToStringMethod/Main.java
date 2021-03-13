@@ -6,11 +6,14 @@ public class Main {
 //        that returns a String that "textually represents " an object .
 //        can be used both implicitly and explicitly
         Car car = new Car();
+//
+//        System.out.println(car.make);
+//        System.out.println(car.model);
+//        System.out.println(car.color);
+//        System.out.println(car.year);
 
-        System.out.println(car.make);
-        System.out.println(car.model);
-        System.out.println(car.color);
-        System.out.println(car.year);
+        System.out.println(car.toString());
+        System.out.println(car);
 
     }
 }
