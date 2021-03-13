@@ -7,6 +7,10 @@ public class Main {
 //        can be used both implicitly and explicitly
         Car car = new Car();
 
+        System.out.println(car.make);
+        System.out.println(car.model);
+        System.out.println(car.color);
+        System.out.println(car.year);
 
     }
 }
