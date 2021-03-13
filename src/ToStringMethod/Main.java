@@ -12,8 +12,8 @@ public class Main {
 //        System.out.println(car.color);
 //        System.out.println(car.year);
 
+//        System.out.println(car.toString());
         System.out.println(car.toString());
-        System.out.println(car);
 
     }
 }
