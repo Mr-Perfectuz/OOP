@@ -9,6 +9,6 @@ public class main {
         human.age = 20;
         human.weight = 160.0;
 
-        System.out.println(human.name);
+        human.eating();
     }
 }
