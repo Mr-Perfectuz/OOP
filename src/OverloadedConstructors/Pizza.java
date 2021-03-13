@@ -6,6 +6,6 @@ public class Pizza {
     String cheese;
     String toopings;
 
-     Pizza() {
+     Pizza(String bread, String sauce, String cheese, String toopings) {
     }
 }
