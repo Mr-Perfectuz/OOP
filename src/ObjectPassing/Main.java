@@ -5,6 +5,10 @@ public class Main {
         Garage garage = new Garage();
 
         Car car =  new Car("Tesla");
+        Car car1 = new Car("BMW");
+
+        garage.Park(car);
+        garage.Park(car1);
 
     }
 }
