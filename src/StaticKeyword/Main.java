@@ -5,6 +5,8 @@ public class Main {
 //        static = modifier, A single copy of a variable/method is created and shared
 //                         the class owns the static member
 
+        Friend friend = new Friend("Tony");
 
+        System.out.println(Friend.numberOfFriends);
     }
 }
