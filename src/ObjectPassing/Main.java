@@ -15,6 +15,7 @@ public class Main {
         garage.Park(car3);
 
         garage.Drive(car);
+        garage.Drive(car);
 
     }
 }
