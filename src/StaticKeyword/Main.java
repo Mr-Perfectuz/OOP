@@ -10,6 +10,8 @@ public class Main {
         Friend friend3 = new Friend("Artur");
 
         System.out.println(Friend.numberOfFriends);
+        Friend.DisplayFriends();
+
 //        System.out.println(friend.name + " has "+ Friend.numberOfFriends+ " friend");
     }
 }
