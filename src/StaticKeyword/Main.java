@@ -6,7 +6,10 @@ public class Main {
 //                         the class owns the static member
 
         Friend friend = new Friend("Tony");
+        Friend friend2 = new Friend("Patric");
+        Friend friend3 = new Friend("Artur");
 
         System.out.println(Friend.numberOfFriends);
+//        System.out.println(friend.name + " has "+ Friend.numberOfFriends+ " friend");
     }
 }
