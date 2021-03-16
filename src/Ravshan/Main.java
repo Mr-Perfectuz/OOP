@@ -9,6 +9,7 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
         System.out.println(" Ismingizni kiriting ");
 
+
         String Ravshan = scanner.nextLine();
 
         System.out.println(" Mening ismim  "+ Ravshan);
