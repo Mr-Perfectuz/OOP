@@ -1,3 +1,5 @@
+package Inheritance_Java;
+
 public class Vehicle {
 
     double speed;
