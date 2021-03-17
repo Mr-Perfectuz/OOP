@@ -9,6 +9,11 @@ public class Main {
 
 
         Car car = new Car("Chevrolet", "Captiva", 2020);
+
+        car.setModel("Cybertruck");
+        car.setMake("Tesla");
+        car.setYear(2021);
+
         System.out.println(car.getModel() + " is made by "+ car.getMake() +" and produced in "+ car.getYear());
 
 
