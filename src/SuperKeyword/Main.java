@@ -11,6 +11,8 @@ public class Main {
 //        System.out.println(hero1.name + " is "+ hero1.age +" years old and has "+ hero1.power+ " power");
 //        System.out.println(hero2.name + " is "+ hero2.age +" years old and has "+ hero2.power+ " power");
 
+        System.out.println(hero1.toString());
+        System.out.println(hero2.toString());
     }
 
 }
