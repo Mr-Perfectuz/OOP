@@ -6,6 +6,7 @@ public class Main {
 //        abstract = abstract classes can not be instantiated, but they can have a subclass
 //                   abstract methods are declared without an implementation
 
-
+//        Vehicle vehicle = new Vehicle();/
+        Car car = new Car();
     }
 }
