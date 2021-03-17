@@ -11,6 +11,8 @@ public class Car {
         this.year = year;
     }
 
+//     getters have been implemented
+
     public String getMake() {
         return make;
     }
@@ -21,5 +23,11 @@ public class Car {
 
     public int getYear() {
         return year;
+    }
+//     setters have been implemented
+
+
+    public void setMake(){
+        this.make = make;
     }
 }
