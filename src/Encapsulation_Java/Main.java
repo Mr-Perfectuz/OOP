@@ -8,6 +8,7 @@ public class Main {
 //                         You should make attributes private if you don't have a reason to make them public/protected
 
 
+        Car car = new Car("Chevrolet", "Captiva", 2020);
     }
 
 }
