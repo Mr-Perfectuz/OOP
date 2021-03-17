@@ -7,6 +7,8 @@ public class Main {
 
         Hero hero1 = new Hero("Batman", 42, "$$$");
 
+        System.out.println(hero1.name + " is "+ hero1.age +" years old and has "+ hero1.power+ " power");
+
     }
 
 }
