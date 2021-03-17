@@ -6,9 +6,9 @@ public class Car {
     private  int year;
 
     Car(String make, String model, int year){
-        this.make = make;
-        this.model = model;
-        this.year = year;
+        this.setMake(make);
+        this.setModel(model);
+        this.setYear(year);
     }
 
 //     getters have been implemented
@@ -28,8 +28,7 @@ public class Car {
 
 //     setters have been implemented
 
-
-    public void setMake(String make) {
+    public void setMake(String make){
         this.make = make;
     }
 
