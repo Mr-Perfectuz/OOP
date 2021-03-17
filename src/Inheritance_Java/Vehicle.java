@@ -10,10 +10,10 @@ public class Vehicle {
     }
 
     void go(){
-        System.out.println("This " + " is moving ");
+        System.out.println("This " +name+ " is moving ");
     }
     void Stop(){
-        System.out.println("This "+ "is stopped");
+        System.out.println("This "+name+ " is stopped");
     }
 
 }
