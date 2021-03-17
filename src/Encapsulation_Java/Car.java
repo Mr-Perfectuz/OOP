@@ -24,10 +24,20 @@ public class Car {
     public int getYear() {
         return year;
     }
+
+
 //     setters have been implemented
 
 
-    public void setMake(){
+    public void setMake(String make) {
         this.make = make;
+    }
+
+    public void setModel(String model) {
+        this.model = model;
+    }
+
+    public void setYear(int year) {
+        this.year = year;
     }
 }
