@@ -9,7 +9,7 @@ public class Main {
 
 
         Car car = new Car("Chevrolet", "Captiva", 2020);
-//        System.out.println();
+        System.out.println(car.getModel() + " is made by "+ car.getMake());
 
 
 
