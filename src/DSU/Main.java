@@ -30,12 +30,15 @@ public class Main {
 
         totalPayment =  (monthlyPayment * numberOfYears * 12);
 
-        System.out.println(" The monthly payment is "+ monthlyPayment);
-        System.out.println(" The total payment is "+ totalPayment);
+//        System.out.println(" The monthly payment is "+ monthlyPayment);
+//        System.out.println(" The total payment is "+ totalPayment);
 
 
 
 
+
+        System.out.printf("The monthly payment is: %.2f%n", monthlyPayment);
+        System.out.printf("The total payment is: %.2f%n", totalPayment);
 
 
 
