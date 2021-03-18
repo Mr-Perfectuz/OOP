@@ -12,7 +12,7 @@ public class Main {
 
         car.setModel("Cybertruck");
         car.setMake("Tesla");
-        car.setYear(2021);
+        car.setYear(2020);
 
         System.out.println(car.getModel() + " is made by "+ car.getMake() +" and produced in "+ car.getYear());
 
