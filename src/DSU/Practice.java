@@ -8,8 +8,6 @@ public class Practice {
 
         String userInput = JOptionPane.showInputDialog("");
 
-
-
 //         U: 2000+6400+4000+3000+21000 = 36.400
 //        S:   3200 + 3500+2500+4000+3200+16500 = 32900
 //        I:  4800
